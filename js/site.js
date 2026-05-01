@@ -41,10 +41,12 @@ function renderHome(data) {
   const hero = document.getElementById('hero');
   if (hero) {
     hero.innerHTML = '';
+    const heroName = data.site.hero_name || (data.site.title || '').split(' ')[0];
+    const heroIntro = data.site.hero_intro || data.site.hero_line || data.site.tagline || '';
     hero.appendChild(el('div', { class: 'hero-inner' },
       el('h1', { class: 'hero-headline' },
-        el('span', {}, 'Allbriton '),
-        el('span', { class: 'hero-headline-muted' }, 'is a creative strategist, AI specialist & creative director working at the intersection of brands and culture.')
+        el('span', {}, heroName + ' '),
+        el('span', { class: 'hero-headline-muted' }, heroIntro)
       ),
       el('div', { class: 'hero-marquee' },
         el('span', {}, data.site.location),

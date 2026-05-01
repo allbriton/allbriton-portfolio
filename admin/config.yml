@@ -95,14 +95,16 @@ collections:
       - file: "data/site.json"
         name: "site"
         label: "Site Settings"
-        description: "Your name, tagline, contact info, location."
+        description: "Site-wide info: your name, the homepage hero text, contact info."
         fields:
-          - { label: "Title (your name)", name: "title", widget: "string" }
-          - { label: "Tagline", name: "tagline", widget: "string" }
-          - { label: "Hero line (subtitle on homepage)", name: "hero_line", widget: "string" }
+          - { label: "Title (your name — appears in nav, page titles)", name: "title", widget: "string" }
+          - { label: "Hero name (bold word in homepage headline)", name: "hero_name", widget: "string", hint: "Just the first word that appears in bold, e.g. 'Allbriton'." }
+          - { label: "Hero intro (muted continuation of homepage headline)", name: "hero_intro", widget: "text", hint: "The rest of the homepage headline that follows the name." }
+          - { label: "Tagline (short descriptor — currently unused but reserved)", name: "tagline", widget: "string", required: false }
+          - { label: "Hero line (legacy subtitle field — currently unused)", name: "hero_line", widget: "string", required: false }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "LinkedIn URL", name: "linkedin", widget: "string" }
-          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Location (shown in homepage marquee)", name: "location", widget: "string" }
 
       - file: "data/tags.json"
         name: "tags"
