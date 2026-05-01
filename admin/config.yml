@@ -5,8 +5,6 @@ backend:
   name: github
   repo: allbriton/allbriton-portfolio
   branch: main
-  auth_type: pkce
-  app_id: 0v23li3jCfq73LLvPvny
 
 # Where uploaded images/videos go and how they're referenced in JSON
 media_folder: "assets/projects"
