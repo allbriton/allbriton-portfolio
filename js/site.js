@@ -375,37 +375,36 @@ function renderAbout(data) {
   if (!root) return;
   root.innerHTML = '';
 
+  // Read from data.about with sensible fallbacks so the page never blanks out
+  // if a field is missing.
+  const a = data.about || {};
+  const eyebrow = a.eyebrow || 'ABOUT';
+  const headline = a.headline || 'Strategy, creative direction & writing.';
+  const paragraphs = (a.paragraphs && a.paragraphs.length) ? a.paragraphs : [];
+  const image = a.image || { src: 'assets/about/allbriton.png', alt: 'Allbriton Robbins' };
+  const brandHeading = a.brand_experience_heading || 'Brand Experience';
+  const brands = a.brands || [];
+
   // hero — two col: left = eyebrow + headline + body copy; right = image
   root.appendChild(el('header', { class: 'about-hero' },
     el('div', { class: 'about-hero-text' },
-      el('div', { class: 'eyebrow' }, 'ABOUT'),
-      el('h1', {}, 'Strategy, creative direction & writing.'),
-      el('p', { class: 'lead' }, "I'm a strategist, creative director and writer available for select projects. I've started brands, crashed start-ups, been in-house, and exited companies, worked at agencies both big and small and everywhere in between."),
-      el('p', { class: 'lead' }, "Currently living between NYC and the North Fork of Long Island with my partner Melissa (not pictured below) and dog Rothko (pictured below).")
+      el('div', { class: 'eyebrow' }, eyebrow),
+      el('h1', {}, headline),
+      ...paragraphs.map(p => el('p', { class: 'lead' }, p))
     ),
     el('div', { class: 'about-hero-image' },
-      el('img', { src: 'assets/about/allbriton.png', alt: 'Allbriton Robbins' })
+      el('img', { src: image.src, alt: image.alt || '' })
     )
   ));
 
-  // combined experience
-  const allBrands = [
-    'TikTok', 'CashApp', 'Google Creative Lab', 'Venmo',
-    '72andSunny LA', '72andSunny NY', 'Mother NY', 'Johannes Leonardo',
-    'The Barbarian Group', 'Grey NYC', 'Havas', 'Ogilvy', 'VMLY&R', 'The Brand Union',
-    'Google', 'Truth', 'Dewars', 'The Standard Hotels', 'Coca Cola', 'TBS', 'Umbo', 'Pringles',
-    'Pepsi', 'E*Trade', 'Target', 'LG', 'Vans', 'Febreze', 'SleepFuel',
-    'Mars', 'Unilever', 'Nestle', 'Square',
-    'Mastercard', 'Visa', 'GEICO', 'USAA', 'ESPN'
-  ];
-
-  root.appendChild(el('div', { class: 'about-columns about-columns--single' },
-    el('section', {},
-      el('h3', {}, 'Brand Experience'),
-      el('div', { class: 'chips' }, ...allBrands.map(b => el('span', { class: 'chip' }, b)))
-    )
-  ));
-
+  if (brands.length) {
+    root.appendChild(el('div', { class: 'about-columns about-columns--single' },
+      el('section', {},
+        el('h3', {}, brandHeading),
+        el('div', { class: 'chips' }, ...brands.map(b => el('span', { class: 'chip' }, b)))
+      )
+    ));
+  }
 }
 
 /* ---------- shared nav/footer ---------- */

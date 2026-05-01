@@ -33,11 +33,14 @@ def main():
         print(f"error: {DATA} does not exist", file=sys.stderr)
         sys.exit(1)
 
-    # --- site & tags ---
+    # --- site & tags & about ---
     site = load_json(DATA / "site.json")
 
     tags_blob = load_json(DATA / "tags.json")
     tags = tags_blob["tags"] if isinstance(tags_blob, dict) and "tags" in tags_blob else tags_blob
+
+    about_path = DATA / "about.json"
+    about = load_json(about_path) if about_path.exists() else None
 
     # --- order index ---
     order_blob = load_json(DATA / "projects-order.json")
@@ -86,6 +89,8 @@ def main():
         "tags": tags,
         "projects": [all_projects[slug] for slug in final_order],
     }
+    if about is not None:
+        combined["about"] = about
 
     # --- write outputs ---
     out_json = DATA / "projects.json"

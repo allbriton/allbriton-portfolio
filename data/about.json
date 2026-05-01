@@ -1,0 +1,53 @@
+{
+  "eyebrow": "ABOUT",
+  "headline": "Strategy, creative direction & writing.",
+  "paragraphs": [
+    "I'm a strategist, creative director and writer available for select projects. I've started brands, crashed start-ups, been in-house, and exited companies, worked at agencies both big and small and everywhere in between.",
+    "Currently living between NYC and the North Fork of Long Island with my partner Melissa (not pictured below) and dog Rothko (pictured below)."
+  ],
+  "image": {
+    "src": "assets/about/allbriton.png",
+    "alt": "Allbriton Robbins"
+  },
+  "brand_experience_heading": "Brand Experience",
+  "brands": [
+    "TikTok",
+    "CashApp",
+    "Google Creative Lab",
+    "Venmo",
+    "72andSunny LA",
+    "72andSunny NY",
+    "Mother NY",
+    "Johannes Leonardo",
+    "The Barbarian Group",
+    "Grey NYC",
+    "Havas",
+    "Ogilvy",
+    "VMLY&R",
+    "The Brand Union",
+    "Google",
+    "Truth",
+    "Dewars",
+    "The Standard Hotels",
+    "Coca Cola",
+    "TBS",
+    "Umbo",
+    "Pringles",
+    "Pepsi",
+    "E*Trade",
+    "Target",
+    "LG",
+    "Vans",
+    "Febreze",
+    "SleepFuel",
+    "Mars",
+    "Unilever",
+    "Nestle",
+    "Square",
+    "Mastercard",
+    "Visa",
+    "GEICO",
+    "USAA",
+    "ESPN"
+  ]
+}

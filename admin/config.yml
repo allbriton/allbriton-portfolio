@@ -125,3 +125,26 @@ collections:
             name: "order"
             widget: "list"
             field: { label: "Slug", name: "slug", widget: "string" }
+
+      - file: "data/about.json"
+        name: "about"
+        label: "About Page"
+        description: "Edit the eyebrow, headline, intro paragraphs, photo, and brand experience list on the About page."
+        fields:
+          - { label: "Eyebrow (small caps label above headline)", name: "eyebrow", widget: "string" }
+          - { label: "Headline", name: "headline", widget: "string" }
+          - label: "Intro paragraphs"
+            name: "paragraphs"
+            widget: "list"
+            field: { label: "Paragraph", name: "text", widget: "text" }
+          - label: "Photo"
+            name: "image"
+            widget: "object"
+            fields:
+              - { label: "Image", name: "src", widget: "file" }
+              - { label: "Alt text", name: "alt", widget: "string" }
+          - { label: "Brand experience heading", name: "brand_experience_heading", widget: "string" }
+          - label: "Brands (chips list)"
+            name: "brands"
+            widget: "list"
+            field: { label: "Brand", name: "name", widget: "string" }
