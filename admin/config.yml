@@ -5,6 +5,8 @@ backend:
   name: github
   repo: allbriton/allbriton-portfolio
   branch: main
+  auth_type: pkce
+  app_id: 0v23li3jCfq73LLvPvny
 
 # Where uploaded images/videos go and how they're referenced in JSON
 media_folder: "assets/projects"
@@ -12,7 +14,6 @@ public_folder: "/assets/projects"
 
 # Editorial workflow gives you a Save → Review → Publish pipeline.
 # Useful when you want to draft a project before it goes live.
-publish_mode: editorial_workflow
 
 collections:
   # ─── PROJECTS ────────────────────────────────────────────────────────
