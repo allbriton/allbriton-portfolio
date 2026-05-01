@@ -4,6 +4,7 @@
 # when this file is at the repo root and `publish` points to current dir.
 
 [build]
+  command = "python3 scripts/build-projects.py"
   publish = "."
 
 # ─── Redirects ────────────────────────────────────────────────────────────

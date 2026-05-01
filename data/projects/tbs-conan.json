@@ -1,0 +1,32 @@
+{
+  "slug": "tbs-conan",
+  "title": "TBS | CONAN",
+  "client": "TBS",
+  "project": "CONAN",
+  "year": "",
+  "tags": [
+    "Creative Direction",
+    "Creator Marketing",
+    "Advertising",
+    "B2C"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "src": "assets/projects/tbs-conan/Screen_Shot_2016-11-16_at_4.14.38_PM.png"
+  },
+  "hero": "assets/projects/tbs-conan/Screen_Shot_2016-11-16_at_4.14.38_PM.png",
+  "summary": "TBS NOW LETS YOU STREAM CONAN ON ANY DEVICE OR IS IT ANY DEVICE ON CONAN?... THINGS GOT COMPLICATED.",
+  "body": [],
+  "gallery": [
+    "assets/projects/tbs-conan/Screen_Shot_2016-11-16_at_5.26.34_PM.png"
+  ],
+  "videos": [
+    {
+      "type": "vimeo",
+      "id": "191896478",
+      "embed": "https://player.vimeo.com/video/191896478"
+    }
+  ],
+  "credits": {},
+  "external": ""
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "coca-cola-plant-bottle",
+  "title": "Coca Cola | Plant Bottle",
+  "client": "Coca Cola",
+  "project": "Plant Bottle",
+  "year": "",
+  "tags": [
+    "Creative Direction",
+    "Branding",
+    "B2C"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "src": "assets/projects/coca-cola-plant-bottle/desani_plant_bottle_dark.png"
+  },
+  "hero": "assets/projects/coca-cola-plant-bottle/image-asset.jpeg",
+  "summary": "COCACOLA IS THE LARGEST BEVERAGE COMPANY IN THE WORLD, UNFORTUNATELY IT ALSO MEANS THEY ARE THE LARGEST PRODUCER OF PLASTIC WASTE IN THE WORLD. SO THEY DECIDED TO TACKLE THIS ISSUE AND DEVELOP A BOTTLE THAT’S MADE FROM 30% PLANT-BASED MATERIAL WHILE STILL ABLE TO BE PROCESSED IN TRADITIONAL RECYCLING PLANTS.",
+  "body": [
+    "THE PROBLEM WAS THEY DIDN’T KNOW WHAT TO CALL IT OR HOW TO SHOW THAT THE BOTTLES WERE ANY DIFFERENT. WE DEVELOPED THE NAME, ICON AND BRANDING FOR THE NOW UBIQUITOUS PLANTBOTTLE",
+    "THE DESIGN HAS BECOME ONE OF THE MOST WIDELY SEEN ICONS IN RECENT TIMES WITH OVER 30 BILLION BOTTLES SOLD IN 25 COUNTRIES SINCE 2008."
+  ],
+  "gallery": [
+    "assets/projects/coca-cola-plant-bottle/image-asset.jpeg",
+    "assets/projects/coca-cola-plant-bottle/image-asset.jpeg",
+    "assets/projects/coca-cola-plant-bottle/desani_plant_bottle_dark.png",
+    "assets/projects/coca-cola-plant-bottle/image-asset.png",
+    "assets/projects/coca-cola-plant-bottle/image-asset.jpeg"
+  ],
+  "videos": [],
+  "credits": {},
+  "external": ""
+}

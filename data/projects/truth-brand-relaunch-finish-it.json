@@ -1,0 +1,52 @@
+{
+  "slug": "truth-brand-relaunch-finish-it",
+  "title": "Truth | Finish It",
+  "client": "Truth",
+  "project": "Finish It",
+  "year": "",
+  "tags": [
+    "Creative Direction",
+    "Advertising",
+    "Branding",
+    "Strategy",
+    "Marketing",
+    "B2C",
+    "Creator Marketing"
+  ],
+  "thumbnail": {
+    "type": "video",
+    "src": "assets/projects/truth-brand-relaunch-finish-it/truthhero.mp4"
+  },
+  "hero": {
+    "type": "video",
+    "src": "assets/projects/truth-brand-relaunch-finish-it/truthhero.mp4"
+  },
+  "summary": "AFTER A LONG HIATUS, WE RELAUNCHED THE TRUTH BRAND WITH A RENEWED PURPOSE AND AN AMBITIOUS GOAL:BE THE GENERATION TO END SMOKING.",
+  "body": [
+    "AT THE TIME, ONLY 9% OF TEENS SMOKED. BUT OUR FOCUS WAS ON THE 91% OF TEENS WHO DIDN’T SMOKE AND EMPOWERING THEM TO MAKE THE FIGHT THEIR OWN AND #FINISHIT.",
+    "WE STARTED OUT BY ANNOUNCING OUR MISSION TO THESE FINISHERS WITH A RALLYING CRY AND GAVE THEM A DESTINATION TO PARTICIPATE , A BRAND NEW WEBSITE AT THETRUTH.COM.",
+    "WE FOLLOWED THAT UP BY DROPPING A BOMB IN CULTURE THAT CHALLENGED PERCEPTIONS ABOUT SMOKING AND HIJACKED THE VMAS ON MTV, CALLING OUT SMOKING CELEBS AS UNPAID TOBACCO SPOKESPEOPLE.",
+    "SUDDENLY, PEOPLE BEGAN TALKING ABOUT TRUTH AGAIN. CHECK OUT THE CASE-STUDY:",
+    "CHECK OUT SOME OF THE PRESS"
+  ],
+  "grid": [
+    {
+      "type": "video",
+      "src": "assets/projects/truth-brand-relaunch-finish-it/FI_-_case_study_optimized.mp4",
+      "span": 2
+    },
+    {
+      "type": "video",
+      "src": "assets/projects/truth-brand-relaunch-finish-it/Truth___Unpaid_Tobacco_Spokesperson.mp4",
+      "span": 1
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/truth-brand-relaunch-finish-it/image-asset.png",
+      "span": 1
+    }
+  ],
+  "videos": [],
+  "credits": {},
+  "external": ""
+}

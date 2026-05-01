@@ -1,0 +1,42 @@
+{
+  "slug": "google-chrome-launch",
+  "title": "Google | Chrome Launch",
+  "client": "Google",
+  "project": "Chrome Launch",
+  "year": "",
+  "tags": [
+    "Creative Direction",
+    "Branding",
+    "Marketing",
+    "B2C"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "src": "assets/projects/google-chrome-launch/chrome_thumbnail.png"
+  },
+  "hero": "assets/projects/google-chrome-launch/billboard-google-chrome-ad.jpg",
+  "summary": "IN 2009 WE WERE TASKED WITH LAUNCHING AN OBSCURE, RELATIVELY UNKNOWN PRODUCT OUTSIDE OFTHE DEVELOPER COMMUNITY. A WEB BROWSER.",
+  "body": [
+    "OUR TASK WAS TO GET PEOPLE TO UNDERSTAND THAT THE WEB HAD CHANGED AND THEY NEEDED SOMETHING BETTER THAN THAT “INTERNET” ICON THEY HAD ON THEIR COMPUTER’S DESKTOP. SO WE INTRODUCED THE WORLD TO GOOGLE CHROME. THE FIRST WEB BROWSER FROM GOOGLE.",
+    "CHROME QUICKLY BEGAN TO DOMINATE THE MARKET AND IS NOWTHE NUMBER 1 MOST USED BROWSER IN THE WORLD WITH 1.5+ BILLION USERS (53% MARKET SHARE).",
+    "ALONG WITH THE DIGITAL LAUNCH, WE DID A GLOBAL OOH BUY."
+  ],
+  "gallery": [
+    "assets/projects/google-chrome-launch/00300000899554129410525331930.jpg",
+    "assets/projects/google-chrome-launch/5308119110_2cfbd38d19_b.jpg",
+    "assets/projects/google-chrome-launch/5300159849_9ce2b97826.jpg",
+    "assets/projects/google-chrome-launch/billboard041411.png",
+    "assets/projects/google-chrome-launch/chrome_thumbnail.png"
+  ],
+  "videos": [
+    {
+      "type": "vimeo",
+      "id": "36035772",
+      "embed": "https://player.vimeo.com/video/36035772",
+      "title": "Google Chrome",
+      "thumbnail": "media/google-chrome-launch/vimeo-36035772.jpg"
+    }
+  ],
+  "credits": {},
+  "external": ""
+}

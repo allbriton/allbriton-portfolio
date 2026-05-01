@@ -1,0 +1,32 @@
+{
+  "slug": "etrade-retirement-1",
+  "title": "e*Trade | Retirement",
+  "client": "e*Trade",
+  "project": "Retirement",
+  "year": "",
+  "tags": [
+    "Creative Direction",
+    "Advertising"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "src": "assets/projects/etrade-retirement-1/Screen_Shot_2016-11-14_at_2.37.52_PM.png"
+  },
+  "hero": "assets/projects/etrade-retirement-1/Screen_Shot_2016-11-16_at_5.04.29_PM.png",
+  "summary": "IT’S A BIRD, IT’S A PLANE…NO IT’S A FLYING BULL AND BEAR FIGHTING OVER THE VALUE OF PORK BELLY FUTURES.",
+  "body": [],
+  "gallery": [
+    "assets/projects/etrade-retirement-1/Screen_Shot_2016-11-14_at_2.37.52_PM.png"
+  ],
+  "videos": [
+    {
+      "type": "vimeo",
+      "id": "14460839",
+      "embed": "https://player.vimeo.com/video/14460839",
+      "title": "E*Trade - Retirement",
+      "thumbnail": "media/etrade-retirement-1/vimeo-14460839.jpg"
+    }
+  ],
+  "credits": {},
+  "external": ""
+}
