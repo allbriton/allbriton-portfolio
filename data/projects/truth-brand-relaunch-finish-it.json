@@ -54,6 +54,12 @@
       "src": "assets/projects/truth-brand-relaunch-finish-it/image-asset.png",
       "span": 2,
       "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/FI_-_case_study.mp4",
+      "span": 2,
+      "alt": ""
     }
   ],
   "external": "",
