@@ -1,0 +1,94 @@
+/* ─────────────────────────────────────────────────────────────
+   DESIGN TOKENS — "Honed Earth"
+   Values from Figma "Honed Earth Styleguide".
+   All other CSS refers to these via var(...).
+   ───────────────────────────────────────────────────────────── */
+
+/* Self-hosted display serif — only Ultralight shipped, so mapped to normal weight */
+@font-face {
+  font-family: "PP Editorial New";
+  src: url("../assets/fonts/PPEditorialNew-Ultralight.otf") format("opentype");
+  font-weight: 100 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PP Editorial New";
+  src: url("../assets/fonts/PPEditorialNew-UltralightItalic.otf") format("opentype");
+  font-weight: 100 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  /* Colors — Honed Earth palette */
+  --color-bg:           #F0E5DB;   /* Primary Background */
+  --color-surface:      #E4D5C4;   /* cards / hero surface — additional warm */
+  --color-hero:         #F0E5DB;   /* landing-area surface — matches Primary Background */
+  --color-accent:       #B8684A;   /* Primary accent — terracotta */
+  --color-accent-2:     #5A6147;   /* Secondary accent — olive */
+  --color-ink:          #1F1C18;   /* Secondary Text — deepest for headlines */
+  --color-ink-muted:    #4A4741;   /* Primary Text — body */
+  --color-line:         #8A8377;   /* Additional — dividers, outlines */
+  --color-line-soft:    rgba(74,71,65,0.18);
+
+  /* Typography */
+  --font-display:       "PP Editorial New", "Times New Roman", Georgia, serif;
+  --font-body:          "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-mono:          "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Type scale */
+  --fs-hero:   clamp(3.5rem, 9vw, 9rem);
+  --fs-h1:     clamp(2.5rem, 5vw, 4.5rem);
+  --fs-h2:     clamp(1.75rem, 3vw, 2.75rem);
+  --fs-h3:     clamp(1.25rem, 2vw, 1.75rem);
+  --fs-lead:   clamp(1.125rem, 1.4vw, 1.375rem);
+  --fs-body:   1rem;
+  --fs-small:  0.875rem;
+  --fs-caps:   0.75rem;
+
+  --lh-tight:   1.05;
+  --lh-snug:    1.2;
+  --lh-normal:  1.55;
+  --lh-loose:   1.75;
+
+  /* Spacing — 8pt grid */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4rem;
+  --s-9: 6rem;
+  --s-10: 8rem;
+
+  /* Layout */
+  --container: 1440px;
+  --gutter: clamp(1rem, 3vw, 2.5rem);
+  --radius-sm: 2px;
+  --radius-md: 16px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.0, 0, 0.2, 1);
+  --t-fast: 180ms;
+  --t-med: 320ms;
+  --t-slow: 600ms;
+
+  /* Misc */
+  --grid-gap: clamp(0.5rem, 1vw, 1rem);
+  --grid-columns: 3;
+}
+
+@media (max-width: 900px) {
+  :root { --grid-columns: 2; }
+}
+@media (max-width: 560px) {
+  :root { --grid-columns: 1; }
+}
+
+@media (prefers-color-scheme: dark) {
+  /* optional dark overrides — left mirroring light for now */
+}
