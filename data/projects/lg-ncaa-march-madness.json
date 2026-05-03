@@ -11,12 +11,27 @@
     "B2C"
   ],
   "thumbnail": {
-    "type": "image",
-    "src": "assets/projects/lg-ncaa-march-madness/Screen_Shot_2017-03-31_at_1.28.31_PM.png"
+    "type": "video",
+    "src": "/assets/projects/lg-ncaa-march-madness/lgmarchmadnesshero.mp4"
   },
   "hero": "assets/projects/lg-ncaa-march-madness/Screen_Shot_2017-03-31_at_1.28.31_PM.png",
-  "summary": "MASCOTS MIGHT SEEM LIKE THEY LIVE THE PERFECT LIVES. BUT AT HOME THEY’RE JUST LIKE US. LEVERAGING LG’S PARTNERSHIP WITH THE NCAA FOR MARCH MADNESS, WE HIGHLIGHT HOW LG’S HOME APPLIANCES ARE THE PERFECT PRODUCTS FOR A WONDERFULLY IMPERFECT LIFE.",
-  "body": [],
+  "summary": "Life's not perfect campaign.",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Mascots might seem like they live the perfect lives. But at home they’re just like us. Leveraging LG’s partnership with the NCAA for March Madness, we highlight how LG’s home appliances are the perfect products for a wonderfully imperfect life."
+    }
+  ],
+  "grid": [
+    {
+      "type": "video",
+      "src": "/assets/projects/LG_-_Life's_Not_Perfect__Messy_Mascots.mp4",
+      "span": 2,
+      "alt": ""
+    }
+  ],
+  "external": "",
+  "credits": {},
   "gallery": [],
   "videos": [
     {
@@ -33,7 +48,5 @@
       "title": "LG - Life's Not Perfect: Mascot Knock",
       "thumbnail": "media/lg-ncaa-march-madness/vimeo-210972432.jpg"
     }
-  ],
-  "credits": {},
-  "external": ""
+  ]
 }
