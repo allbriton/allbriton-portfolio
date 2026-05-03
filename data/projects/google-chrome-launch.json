@@ -1,0 +1,65 @@
+{
+  "slug": "google-chrome-launch",
+  "title": "Google Chrome Launch",
+  "client": "Google",
+  "project": "Chrome Launch",
+  "year": "2009",
+  "tags": [
+    "Branding",
+    "B2C",
+    "Product Marketing",
+    "Creative Direction"
+  ],
+  "thumbnail": {
+    "type": "video",
+    "src": "/assets/projects/googlechromehero.mp4"
+  },
+  "hero": "assets/projects/google-chrome-launch/billboard-google-chrome-ad.jpg",
+  "summary": "Product launch creative for Google Chrome",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "In 2009, the web browser category suffered from low consumer awareness and poor product experiences. Most internet users had little understanding of what a web browser actually was, treating it as an invisible utility bundled with their operating system. Those who did use one relied on clunky, outdated options like Internet Explorer that felt boxy, slow to load pages, and vulnerable to security threats. This created a major barrier for Google, which needed users to actively choose and switch to a new browser to support its ecosystem of fast, cloud-based services. The challenge was not just competition but basic education: convincing everyday people that their browser mattered and that better alternatives existed."
+    },
+    {
+      "type": "callout",
+      "text": "3.8 billion users",
+      "callout": true,
+      "attribution": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "We responded with a compelling product marketing campaign that visually introduced the “new era of the browser.” Through eye-catching comics, demo videos, and simple, modern visuals, the campaign clearly explained what a web browser is while showcasing Chrome’s superior speed, intuitive interface, and strong security features. The messaging emphasized a clean, lightweight design that made browsing feel fast and effortless compared to the sluggish, insecure status quo. This educational yet aspirational approach drove awareness and encouraged trial, positioning Chrome as the obvious upgrade for a better web experience."
+    },
+    {
+      "type": "paragraph",
+      "text": "The strategy proved transformative. Chrome rapidly gained traction and became the world’s most widely used web browser, achieving dominant market share and amassing approximately 3.8 billion installs and active users. It reshaped user expectations for browsing, accelerated web innovation, and solidified Google’s position at the center of the internet experience."
+    }
+  ],
+  "grid": [
+    {
+      "type": "video",
+      "src": "/assets/projects/google_chrome_v1 (480p).mp4",
+      "span": 1,
+      "alt": ""
+    }
+  ],
+  "external": "",
+  "credits": {},
+  "gallery": [
+    "assets/projects/google-chrome-launch/00300000899554129410525331930.jpg",
+    "assets/projects/google-chrome-launch/5308119110_2cfbd38d19_b.jpg",
+    "assets/projects/google-chrome-launch/5300159849_9ce2b97826.jpg",
+    "assets/projects/google-chrome-launch/billboard041411.png",
+    "assets/projects/google-chrome-launch/chrome_thumbnail.png"
+  ],
+  "videos": [
+    {
+      "type": "vimeo",
+      "id": "36035772",
+      "embed": "https://player.vimeo.com/video/36035772",
+      "title": "Google Chrome",
+      "thumbnail": "media/google-chrome-launch/vimeo-36035772.jpg"
+    }
+  ]
+}

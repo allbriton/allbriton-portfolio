@@ -1,0 +1,39 @@
+{
+  "slug": "truth-rollcall",
+  "title": "Truth | #ROLLCALL LIVE TWITTER ACTIVATION",
+  "client": "Truth",
+  "project": "#ROLLCALL LIVE TWITTER ACTIVATION",
+  "year": "",
+  "tags": [
+    "Creative Direction",
+    "Creator Marketing",
+    "Advertising",
+    "B2C"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "src": "assets/projects/truth-rollcall/FAUST_GIF_VERSION_2.gif"
+  },
+  "hero": "assets/projects/truth-rollcall/FaustTagging.gif",
+  "summary": "AS A THANK YOU FOR TRUTH'S INSANELY DEDICATED TWITTER FOLLOWERS WE COLLABORATED WITH INFAMOUS STREET ARTIST FAUSTTO DRAW OVER 1000 CUSTOM GRAFFITI TAGS OF THEIR USERNAMES LIVE ON PERISCOPE.",
+  "body": [
+    "THE END RESULT TURNED TRUTH'S TWITTER FEED INTO A LIVE GRAFFITI WALL."
+  ],
+  "gallery": [
+    "assets/projects/truth-rollcall/TWEET_FAUST_FINISHERS_2.gif",
+    "assets/projects/truth-rollcall/FAUST_GIF_VERSION_2.gif",
+    "assets/projects/truth-rollcall/TWEET_FAUST_PR_1.gif",
+    "assets/projects/truth-rollcall/FAUST_GIF_VERSION_2.gif",
+    "assets/projects/truth-rollcall/image-asset.jpeg"
+  ],
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "Y8UWAuc6IUI",
+      "embed": "https://www.youtube.com/embed/Y8UWAuc6IUI",
+      "thumbnail": "media/truth-rollcall/youtube-Y8UWAuc6IUI.jpg"
+    }
+  ],
+  "credits": {},
+  "external": ""
+}

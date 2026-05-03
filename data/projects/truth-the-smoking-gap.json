@@ -1,0 +1,31 @@
+{
+  "slug": "truth-the-smoking-gap",
+  "title": "Truth | The Smoking Gap",
+  "client": "Truth",
+  "project": "The Smoking Gap",
+  "year": "",
+  "tags": [
+    "Creative Direction",
+    "Advertising",
+    "Strategy",
+    "B2C"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "src": "assets/projects/truth-the-smoking-gap/Screen_Shot_2016-11-18_at_11.08.04_AM.png"
+  },
+  "hero": "assets/projects/truth-the-smoking-gap/Screen_Shot_2016-11-18_at_11.08.04_AM.png",
+  "summary": "WE WANTED TO DIMENSIONALIZE THE FACT: SMOKERS EARN 20% LESS THAN NON-SMOKERS.AND CALL OUT THAT BIG TOBACCO HAS CREATED A WAGE GAP THAT'S UNFAIR TO SMOKERS.",
+  "body": [],
+  "gallery": [],
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "_182kIOPRvo",
+      "embed": "https://www.youtube.com/embed/_182kIOPRvo",
+      "thumbnail": "media/truth-the-smoking-gap/youtube-_182kIOPRvo.jpg"
+    }
+  ],
+  "credits": {},
+  "external": ""
+}

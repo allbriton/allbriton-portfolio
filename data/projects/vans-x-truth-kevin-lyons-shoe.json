@@ -1,0 +1,40 @@
+{
+  "slug": "vans-x-truth-kevin-lyons-shoe",
+  "title": "Vans x truth | Kevin Lyons",
+  "client": "Vans x truth",
+  "project": "Kevin Lyons",
+  "year": "",
+  "tags": [
+    "Creative Direction",
+    "Creator Marketing",
+    "Branding",
+    "B2C"
+  ],
+  "thumbnail": {
+    "type": "image",
+    "src": "assets/projects/vans-x-truth-kevin-lyons-shoe/truthxVans_social_750x560px_1.gif"
+  },
+  "hero": "assets/projects/vans-x-truth-kevin-lyons-shoe/image-asset.jpeg",
+  "summary": "truth x Vans teamed up with world-renowned artist Kevin Lyons to create a limited-edition sneaker covered in his iconic monsters, each one shouting a message about ending smoking for good.",
+  "body": [
+    "TRUTH X VANS HAVE STEPPED UP ONCE AGAIN TO CREATE A LIMITED EDITION SHOE THAT'S GOT AS MUCH TO SAY AS TEENS DO. TEAMED UP WITH WORLD RENOWNED ARTIST KEVIN LYONS TO CREATE, NOT JUST ANY OLD SNEAKER BUT A PIECE OF ART TEENS COULD WEAR. THESE KICKS ARE COVERED WITH KEVIN'S ICONIC MONSTERS SHOUTING POWERFUL MESSAGES ABOUT ENDING SMOKING FOR GOOD.",
+    "IT ALL STARTED WITH A MURAL IN THE HEART OF TOBACCO COUNTRY RALEIGH, NC",
+    "KEVIN TOOK LIVE REQUESTS FROM HIS INSTAGRAM FOLLOWERS TO BE INCLUDED IN THE MURAL",
+    "WE THEN TOOK THE DESIGN FROM THE WALL AND PUT IT ON THE SHOES"
+  ],
+  "gallery": [
+    "assets/projects/vans-x-truth-kevin-lyons-shoe/image-asset.gif",
+    "assets/projects/vans-x-truth-kevin-lyons-shoe/truthxVans_social_750x560px_1.gif",
+    "assets/projects/vans-x-truth-kevin-lyons-shoe/kevin_in_situ.png"
+  ],
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "WBlATFbXzz8",
+      "embed": "https://www.youtube.com/embed/WBlATFbXzz8",
+      "thumbnail": "media/vans-x-truth-kevin-lyons-shoe/youtube-WBlATFbXzz8.jpg"
+    }
+  ],
+  "credits": {},
+  "external": ""
+}

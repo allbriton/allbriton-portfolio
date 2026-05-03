@@ -35,15 +35,6 @@ async function loadData() {
   throw new Error('Could not load projects data');
 }
 
-// Normalize a list item that might be a string OR an object with a single
-// text-bearing key (text/name/tag/value). Sveltia CMS list widgets often
-// produce the object form even when the schema looks string-like.
-function asString(v) {
-  if (typeof v === 'string') return v;
-  if (v && typeof v === 'object') return v.text || v.name || v.tag || v.value || v.slug || '';
-  return '';
-}
-
 /* ---------- home / grid ---------- */
 function renderHome(data) {
   // hero
@@ -69,10 +60,7 @@ function renderHome(data) {
   if (tagBar) {
     const activeTags = new Set();
     const counts = {};
-    for (const p of data.projects) for (const t of (p.tags || [])) {
-      const tag = asString(t);
-      if (tag) counts[tag] = (counts[tag] || 0) + 1;
-    }
+    for (const p of data.projects) for (const t of (p.tags || [])) counts[t] = (counts[t] || 0) + 1;
 
     const inner = el('div', { class: 'tag-bar-inner' });
     inner.appendChild(el('span', { class: 'label' }, 'Filter'));
@@ -86,9 +74,8 @@ function renderHome(data) {
     });
     inner.appendChild(allBtn);
 
-    for (const rawT of data.tags) {
-      const t = asString(rawT);
-      if (!t || !counts[t]) continue;  // hide empty / unparsed tags
+    for (const t of data.tags) {
+      if (!counts[t]) continue;  // hide empty tags
       const btn = el('button', { class: 'tag', type: 'button', 'data-tag': t }, t, el('span', { class: 'count' }, String(counts[t])));
       btn.addEventListener('click', () => {
         if (activeTags.has(t)) { activeTags.delete(t); btn.classList.remove('active'); }
@@ -142,7 +129,7 @@ function renderHome(data) {
         class: 'card',
         href,
         'data-slug': p.slug,
-        'data-tags': (p.tags || []).map(asString).filter(Boolean).join('|')
+        'data-tags': (p.tags || []).join('|')
       },
         media,
         el('div', { class: 'card-meta' },
@@ -341,31 +328,19 @@ function renderProject(data) {
   if (p.body && p.body.length) {
     const bodyEl = el('div', { class: 'p-body' });
     for (const para of p.body) {
-      // Normalize: handle (a) plain strings, (b) {callout: true, text, attribution}
-      // legacy callouts, and (c) Sveltia-style typed objects like
-      // {type: "paragraph", text: "..."} or {type: "callout", text, attribution}.
-      let text = '';
-      let isCallout = false;
-      let attribution = '';
-      if (typeof para === 'string') {
-        text = para;
-      } else if (para && typeof para === 'object') {
-        text = para.text || '';
-        isCallout = !!para.callout || para.type === 'callout';
-        attribution = para.attribution || '';
-      }
-      if (!text || !text.trim()) continue;
-
-      if (isCallout) {
+      if (typeof para === 'object' && para.callout) {
         const calloutBlock = el('blockquote', { class: 'p-callout-block' },
-          el('p', { class: 'p-callout' }, text),
-          attribution ? el('cite', { class: 'p-callout-cite' }, attribution) : null
+          el('p', { class: 'p-callout' }, para.text),
+          para.attribution ? el('cite', { class: 'p-callout-cite' }, para.attribution) : null
         );
         bodyEl.appendChild(calloutBlock);
-      } else if (text === text.toUpperCase() && text.length < 40) {
-        bodyEl.appendChild(el('div', { class: 'p-heading-caps' }, text));
       } else {
-        bodyEl.appendChild(el('p', {}, text));
+        if (!para.trim()) continue;
+        if (para === para.toUpperCase() && para.length < 40) {
+          bodyEl.appendChild(el('div', { class: 'p-heading-caps' }, para));
+        } else {
+          bodyEl.appendChild(el('p', {}, para));
+        }
       }
     }
     textCol.appendChild(bodyEl);
@@ -405,10 +380,10 @@ function renderAbout(data) {
   const a = data.about || {};
   const eyebrow = a.eyebrow || 'ABOUT';
   const headline = a.headline || 'Strategy, creative direction & writing.';
-  const paragraphs = (a.paragraphs || []).map(asString).filter(Boolean);
+  const paragraphs = (a.paragraphs && a.paragraphs.length) ? a.paragraphs : [];
   const image = a.image || { src: 'assets/about/allbriton.png', alt: 'Allbriton Robbins' };
   const brandHeading = a.brand_experience_heading || 'Brand Experience';
-  const brands = (a.brands || []).map(asString).filter(Boolean);
+  const brands = a.brands || [];
 
   // hero — two col: left = eyebrow + headline + body copy; right = image
   root.appendChild(el('header', { class: 'about-hero' },

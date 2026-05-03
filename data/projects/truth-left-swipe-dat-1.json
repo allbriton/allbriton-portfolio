@@ -1,0 +1,54 @@
+{
+  "slug": "truth-left-swipe-dat-1",
+  "title": "Truth | Left Swipe Dat",
+  "client": "Truth",
+  "project": "Left Swipe Dat",
+  "year": "",
+  "tags": [
+    "Creative Direction",
+    "Creator Marketing",
+    "Advertising",
+    "Strategy",
+    "B2C"
+  ],
+  "thumbnail": {
+    "type": "video",
+    "src": "assets/projects/truth-left-swipe-dat-1/truthlsdhero.mp4"
+  },
+  "hero": {
+    "type": "video",
+    "src": "assets/projects/truth-left-swipe-dat-1/truthlsdhero.mp4"
+  },
+  "summary": "A song and music video about left-swiping smoking profiles on Tinder. Partnering with Fifth Harmony and the biggest internet stars, we premiered it at the Grammys. 40 million views. #LeftSwipeDat trended number one worldwide on Twitter, twice. Cannes Lion and two Gold Clios.",
+  "body": [
+    "Teens who smoke may not care about lung cancer in 60 years, but they do care about getting rejected. To show them that smoking isn't sexy, we created Left Swipe Dat, a song and music video about swiping left on smoking profile pictures on Tinder. We partnered with the biggest internet stars and Fifth Harmony and premiered the piece on the biggest night in music, the Grammys.",
+    "With #TeamInternet behind it, the video crossed 40 million views and #LeftSwipeDat hit number one as a worldwide trending topic on Twitter, twice. We asked viewers to lip sync along to the song under #LipSyncDat and rewarded them with a supercut featuring their submissions. Several artists and influencers made their own cover versions, extending the reach further still.",
+    "The campaign measurably moved teen behavior, associated 'left swipe dat' with rejecting the appeal of smoking in real life, and went on to win a Cannes Lion and two Gold Clios."
+  ],
+  "gallery": [],
+  "videos": [],
+  "credits": {},
+  "external": "",
+  "grid": [
+    {
+      "type": "video",
+      "src": "assets/projects/truth-left-swipe-dat-1/lsd_-_case_study_v1 (720p)_optimized.mp4",
+      "span": 2
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/truth-left-swipe-dat-1/YouTube_KeyFrame_3.png",
+      "span": 1
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/truth-left-swipe-dat-1/image-asset.png",
+      "span": 1
+    },
+    {
+      "type": "image",
+      "src": "assets/projects/truth-left-swipe-dat-1/trending_612.jpg",
+      "span": 2
+    }
+  ]
+}
