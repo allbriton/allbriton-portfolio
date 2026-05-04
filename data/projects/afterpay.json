@@ -1,0 +1,65 @@
+{
+  "slug": "afterpay",
+  "title": "Afterpay TikTok Strategy",
+  "client": "CashApp",
+  "project": "",
+  "year": "2025",
+  "tags": [
+    "B2B",
+    "B2C",
+    "Creative Strategy"
+  ],
+  "thumbnail": {
+    "type": "video",
+    "src": "/assets/projects/afterpayhero.mp4",
+    "poster": ""
+  },
+  "hero": {
+    "type": "video",
+    "src": "/assets/projects/afterpayhero.mp4"
+  },
+  "summary": "Telling the story of how two iconic apps now work together.",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Following the acquisition of Afterpay by Cash App, the combined brand needed a content driven strategy to position Afterpay as a powerful pay over time feature within the Cash App ecosystem while maintaining its distinct identity. Through direct consultations with marketing and creative leadership from both teams, the relaunch leaned into streetwear and drop culture, one of the most vibrant categories on TikTok. Inspired by interview styles and capsule drops from brands like KITH, the campaign emphasized partnerships to tell authentic stories, highlighted by the Afterpay x Rhude collaboration. It also incorporated humorous and human centered storytelling through short form videos that showcased real cultural moments and everyday excitement around fashion drops."
+    },
+    {
+      "type": "callout",
+      "text": "Afterpay x Rhude",
+      "callout": true,
+      "attribution": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "The Afterpay x Rhude Dropshop capsule launched on October 30 2025 as an exclusive basketball inspired collection available through the Afterpay app and HBX.com, featuring a limited edition hoodie, shorts, and custom basketball in Afterpay’s signature green. This activation generated strong media coverage including a dedicated Hypebeast studio visit and lookbook feature that amplified its reach within streetwear communities. The partnership successfully bridged Afterpay’s pay over time flexibility with premium drop culture, driving consumer engagement and reinforcing the seamless integration of Afterpay as a Cash App feature. Overall, the campaign elevated brand resonance and demonstrated how culturally relevant content could deepen loyalty post merger."
+    }
+  ],
+  "grid": [
+    {
+      "type": "video",
+      "src": "/assets/projects/afterpay1.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/afterpay2.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/afterpay3.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/afterpay4.mp4",
+      "span": 1,
+      "alt": ""
+    }
+  ],
+  "external": ""
+}
