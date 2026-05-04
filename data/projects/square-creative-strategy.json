@@ -1,0 +1,58 @@
+{
+  "slug": "square-creative-strategy",
+  "title": "Owning B2B on TikTok",
+  "client": "Square",
+  "project": "",
+  "year": "2025",
+  "tags": [
+    "B2B",
+    "Creative Strategy"
+  ],
+  "thumbnail": {
+    "type": "video",
+    "src": "/assets/projects/squarehero.mp4",
+    "poster": ""
+  },
+  "hero": {
+    "type": "video",
+    "src": "/assets/projects/squarehero.mp4"
+  },
+  "summary": "Transforming B2B storytelling on TikTok",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "We partnered with Square’s marketing leadership and hosted a full-day workshop to explore a transformative approach to reaching the growing B2B audience on TikTok. The session centered on shifting away from conventional product-focused messaging toward authentic, business community-centric storytelling and comprehensive brand world building. Drawing on FinTok cultural insights and the real-world needs of small business owners and entrepreneurs, the strategy positioned Square as a trusted voice that delivers genuine value beyond transactions and fosters deeper connections within the TikTok entrepreneur community."
+    },
+    {
+      "type": "paragraph",
+      "text": "The resulting campaign delivers a cohesive brand world that spans highly practical 1:1 business optimization advice to more personal explorations of founder wellness and mindset. Content ranges from actionable guidance on minimizing startup risk through pop-ups, testing product offerings, and launching smart merch drops to community events that celebrate self-care, neighborhood connection, and the human side of entrepreneurship. By blending these elements into community-driven storytelling, Square has created an authentic, helpful presence that resonates with B2B audiences and strengthens long-term loyalty on the platform."
+    }
+  ],
+  "grid": [
+    {
+      "type": "video",
+      "src": "/assets/projects/square1.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/square2.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/square3.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/square4.mp4",
+      "span": 1,
+      "alt": ""
+    }
+  ],
+  "external": ""
+}
