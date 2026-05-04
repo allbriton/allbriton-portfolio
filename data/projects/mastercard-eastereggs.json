@@ -1,0 +1,64 @@
+{
+  "slug": "mastercard-eastereggs",
+  "title": "Mastercard Social Strategy",
+  "client": "Mastercard",
+  "project": "Noah Kahn Collaboration",
+  "year": "2026",
+  "tags": [
+    "Creative Strategy",
+    "B2C"
+  ],
+  "thumbnail": {
+    "type": "video",
+    "src": "/assets/projects/mastercardhero.mp4",
+    "poster": ""
+  },
+  "hero": {
+    "type": "video",
+    "src": "/assets/projects/mastercardhero.mp4"
+  },
+  "summary": "We partnered with Mastercard to embed an interactive Easter egg hunt across Noah Kahan’s “The Great Divide” music video, turning passive viewers into active superfans through UGC, real-time community engagement, and sweepstakes that rewarded deep fandom with exclusive Priceless Experiences.",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "We partnered closely with Mastercard’s brand, marketing, and agency teams to craft a transformative creative strategy for their collaboration with Noah Kahan. The centerpiece was the premiere of his music video for “The Great Divide” during the GRAMMYs commercial break. Rather than a traditional sponsorship, the strategy embedded an interactive Easter egg hunt with 17 hidden clues throughout the official video. Mastercard cardholders were invited to watch closely, spot as many references as possible, and earn bonus entries into the “Hidden in the Great Divide” sweepstakes by creating and posting their own hunt videos or photos on Instagram and TikTok using #MastercardNoahSweepstakes."
+    },
+    {
+      "type": "callout",
+      "text": "The Easter egg mechanic turned passive fans into active superfans and delivered exceptional community engagement.",
+      "callout": true,
+      "attribution": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "The Easter egg mechanic turned passive fans into active superfans and delivered exceptional community engagement. Participants dissected the video in real time, sparking thousands of organic UGC breakdowns and conversations across TikTok and Instagram. One grand-prize winner received an intimate, invite-only listening party with Noah Kahan before the album dropped, while three first-prize winners earned Priceless Experiences tied to The Mastercard Collection and the summer tour. The campaign amplified the release of The Great Divide, which debuted at No. 1 on the ARIA charts in Australia, and positioned Mastercard as a true cultural connector that rewards loyalty and deep fandom rather than simple brand exposure."
+    }
+  ],
+  "grid": [
+    {
+      "type": "video",
+      "src": "/assets/projects/mastercard2.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/mastercard1.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/mastercard3.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/mastercard4.mp4",
+      "span": 1,
+      "alt": ""
+    }
+  ],
+  "external": ""
+}
