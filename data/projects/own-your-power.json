@@ -14,22 +14,52 @@
   ],
   "thumbnail": {
     "type": "image",
-    "src": "assets/projects/own-your-power/Screen_Shot_2023-08-22_at_10.50.30_AM.png"
+    "src": "/assets/projects/own-your-power/unnamed.gif"
   },
   "hero": "assets/projects/own-your-power/Screen_Shot_2023-08-22_at_12.28.09_PM.png",
-  "summary": "OUR STRATEGIC UNLOCK: MENTAL HEALTHWe discovered that vaping and recreational weed use is due to a growing mental health issue among teens.",
+  "summary": "Rather than talking at teens about vaping and weed, we approached substance abuse through the lens of a mental health conversation.",
   "body": [
-    "The mental health crisis is driving an increase in risky behavior, and teens are increasingly turning to vaping and marijuana to cope. That’s why we created a campaign to give teens the tools and strategies to take control of their mental health and #OwnYourPower",
-    "DON’T TALK DOWN. CO-CREATE.",
-    "We engaged teen creators to build the campaign using an inside out approach. We knew that if this were to be successful, it had to come from the teens themselves. Rather than spit facts and shame tactics, we offered solutions for bettering your mental health and have real conversations around vaping and weed.",
-    "“VIBES” MEETS ACTIONAs a veteran of the Truth campaign, I knew that if we were going to break through, we needed to create a brand that met teens where they are, one that feels authentic and inspiring. That’s why our creative team took inspiration from the themes of street fashion and TikTok to create a playful landscape that was designed to help teens take action and embrace healthier decisions.",
-    "Your affirmation for today? Give yourself grace and patience. You got this.",
-    "Credits",
-    "Executive Creative Director: Allbriton Robbins",
-    "Strategy: Chet Gulland",
-    "Creative Director: Jerryd Clinton",
-    "Designer: Cara Rich"
+    {
+      "type": "paragraph",
+      "text": "As Executive Creative Director, I led my team in designing and fully producing the Own Your Power Oklahoma campaign for the Oklahoma Department of Mental Health and Substance Abuse Services. The campaign was developed to empower teenagers to take control of their mental health and make healthier life choices without relying on vaping or smoking weed. By focusing on self agency, we encouraged teens to find inner strength and develop positive coping mechanisms instead of turning to substances for stress relief or relaxation."
+    },
+    {
+      "type": "paragraph",
+      "text": "The creative strategy centered on giving teens real tools and ownership over their well being. We created an engaging digital platform featuring practical healthy alternatives across categories such as creative outlets, physical activity, mindfulness practices, rest and relaxation techniques, and building support networks. Bold, youth centric messaging including Own Your Power, Time to self care not self medicate, and create your own high positioned teens as the heroes of their own stories, capable of finding happiness, peace, and relief from within."
+    },
+    {
+      "type": "paragraph",
+      "text": "The campaign effectively highlighted critical teen mental health challenges while promoting actionable solutions. It spotlighted key statistics such as one in three high school students experiencing persistent feelings of sadness or hopelessness, a 31 percent increase in teen mental health related visits during the pandemic, and that 75 percent of Oklahoma teens who recently vaped expressed a desire to reduce their use. By equipping young people with accessible resources and empowering them to make positive choices, Own Your Power became a meaningful step in preventing youth vaping and marijuana use across Oklahoma."
+    }
   ],
+  "grid": [
+    {
+      "type": "video",
+      "src": "/assets/projects/62d5a8e8bfc657068f2e65cc_tiktok-clip-transcode.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "/assets/projects/ssstik.io_@odmhsas_1777841978697.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/website.mov",
+      "span": 2,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/ssstik.io_@odmhsas_1777841963106.mp4",
+      "span": 1,
+      "alt": ""
+    }
+  ],
+  "external": "",
+  "credits": {},
   "gallery": [
     "assets/projects/own-your-power/Screen_Shot_2023-08-22_at_10.50.30_AM.png",
     "assets/projects/own-your-power/unnamed.gif",
@@ -44,7 +74,5 @@
       "embed": "https://www.youtube.com/embed/Xlpf_y5z3l4",
       "thumbnail": "media/own-your-power/youtube-Xlpf_y5z3l4.jpg"
     }
-  ],
-  "credits": {},
-  "external": ""
+  ]
 }
