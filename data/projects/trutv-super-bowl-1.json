@@ -9,12 +9,27 @@
     "Advertising"
   ],
   "thumbnail": {
-    "type": "image",
-    "src": "assets/projects/trutv-super-bowl-1/Screen_Shot_2016-11-16_at_5.53.37_PM.png"
+    "type": "video",
+    "src": "/assets/projects/trutvhero.mp4"
   },
   "hero": "assets/projects/trutv-super-bowl-1/Screen_Shot_2016-11-16_at_5.53.37_PM.png",
-  "summary": "WE PARTNERED WITH TRUTV TO CREATE A SUPERBOWL AD ANNOUNCING 6 MORE WEEKS OF FOOTBALL. INTRODUCING PUNXSUTAWNEY POLAMALU!",
-  "body": [],
+  "summary": "What happens with Troy Polamalu sees his shadow?",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "We partnered with truTV to create a Super Bowl ad announcing 6 more weeks of football on truTV. Introducing Punxsutawney Polamalu!"
+    }
+  ],
+  "grid": [
+    {
+      "type": "video",
+      "src": "/assets/projects/trutvsuperbowl.mp4",
+      "span": 2,
+      "alt": ""
+    }
+  ],
+  "external": "",
+  "credits": {},
   "gallery": [],
   "videos": [
     {
@@ -23,7 +38,5 @@
       "embed": "https://www.youtube.com/embed/vwLPKjDz-CU",
       "thumbnail": "media/trutv-super-bowl-1/youtube-vwLPKjDz-CU.jpg"
     }
-  ],
-  "credits": {},
-  "external": ""
+  ]
 }
