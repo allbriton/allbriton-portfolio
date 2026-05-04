@@ -1,25 +1,54 @@
 {
   "slug": "target-holiday-2013",
-  "title": "Target | Holiday",
+  "title": "Target Holiday",
   "client": "Target",
-  "project": "Holiday",
-  "year": "",
+  "project": "How to wow",
+  "year": "2013",
   "tags": [
     "Creative Direction",
     "Advertising",
     "B2C"
   ],
   "thumbnail": {
-    "type": "image",
-    "src": "assets/projects/target-holiday-2013/Screen_Shot_2016-11-18_at_10.18.15_AM.png"
+    "type": "video",
+    "src": "/assets/projects/targethero.mp4"
   },
   "hero": "assets/projects/target-holiday-2013/Screen_Shot_2016-11-18_at_10.18.15_AM.png",
-  "summary": "FOR TARGET'S 2013 HOLIDAY CAMPAIGN WE LAUNCHED A SOCIAL DRIVEN CAMPAIGN WHERE WE TOOK INSIGHTS FROM OUR CONSUMERS AND TURNED THEM INTO THE CAMPAIGN. IT RESULTED IN TARGET'S MOST SOCIALLY SUCCESSFUL LAUNCH TO DATE WITH OVER 500 MILLION ENGAGEMENTS. FOR EXAMPLE WE SHOWED HOW EVERYONE HAS THEIR OWN VERSION OF AN INSTAGRAM-READY TURKEY...",
+  "summary": "A holiday campaign built on the most creative ways to give gifts.",
   "body": [
-    "WE THEN DID A \"HOW TO WOW\" SERIES OF DIGITAL FILMS AND PINTEREST BOARDS THAT SHOWED THE COOLEST WAY TO GIVE THE HOTTEST GIFTS.",
-    "HERE'S THE CAMPAIGN CASE STUDY",
-    "AND ONE SPECIFIC TO \"HOW TO WOW\""
+    {
+      "type": "paragraph",
+      "text": "For Target's 2013 holiday campaign, we launched a socially driven campaign where we took the most creative gifting insights from our consumers and turned them into the campaign. It resulted in Target's most socially successful launch to date with over 500 million engagements."
+    }
   ],
+  "grid": [
+    {
+      "type": "video",
+      "src": "/assets/projects/TARGET - how to wow no.6.mp4",
+      "span": 2,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/TARGET - how to wow no.1.mp4",
+      "span": 2,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/TARGET - how to wow no.2.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/TARGET - how to wow no.4.mp4",
+      "span": 1,
+      "alt": ""
+    }
+  ],
+  "external": "",
+  "credits": {},
   "gallery": [],
   "videos": [
     {
@@ -79,7 +108,5 @@
       "title": "Linus Johansson - Target - How To Wow No.1",
       "thumbnail": "media/target-holiday-2013/vimeo-80983339.jpg"
     }
-  ],
-  "credits": {},
-  "external": ""
+  ]
 }
