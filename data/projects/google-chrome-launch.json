@@ -40,13 +40,13 @@
     {
       "type": "video",
       "src": "/assets/projects/google_chrome_v1 (480p).mp4",
-      "span": 1,
+      "span": 2,
       "alt": ""
     },
     {
       "type": "image",
       "src": "/assets/projects/google-chrome-launch/00300000899554129410525331930.jpg",
-      "span": 1,
+      "span": 2,
       "alt": ""
     }
   ],
