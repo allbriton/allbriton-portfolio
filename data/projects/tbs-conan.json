@@ -1,22 +1,38 @@
 {
   "slug": "tbs-conan",
-  "title": "TBS | CONAN",
+  "title": "TBS Streaming Conan",
   "client": "TBS",
-  "project": "CONAN",
+  "project": "TBS Streaming",
   "year": "",
   "tags": [
     "Creative Direction",
     "Creator Marketing",
     "Advertising",
-    "B2C"
+    "B2C",
+    "Product Marketing"
   ],
   "thumbnail": {
-    "type": "image",
-    "src": "assets/projects/tbs-conan/Screen_Shot_2016-11-16_at_4.14.38_PM.png"
+    "type": "video",
+    "src": "/assets/projects/tbs-conan/tbsconanhero.mp4"
   },
   "hero": "assets/projects/tbs-conan/Screen_Shot_2016-11-16_at_4.14.38_PM.png",
-  "summary": "TBS NOW LETS YOU STREAM CONAN ON ANY DEVICE OR IS IT ANY DEVICE ON CONAN?... THINGS GOT COMPLICATED.",
-  "body": [],
+  "summary": "You can now stream Conan on any device...or is it every device on Conan?",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "For the launch of TBS’s streaming service, we created a campaign featuring iconic comedian Conan O’Brien. The goal was to show that TBS’s most popular shows are available on every device. By harnessing Conan’s signature humor and energy, the campaign delivered a fun, memorable product launch that emphasized the platform’s seamless accessibility across all screens."
+    }
+  ],
+  "grid": [
+    {
+      "type": "video",
+      "src": "/assets/projects/Any_Device_On_Conan.mp4",
+      "span": 2,
+      "alt": ""
+    }
+  ],
+  "external": "",
+  "credits": {},
   "gallery": [
     "assets/projects/tbs-conan/Screen_Shot_2016-11-16_at_5.26.34_PM.png"
   ],
@@ -26,7 +42,5 @@
       "id": "191896478",
       "embed": "https://player.vimeo.com/video/191896478"
     }
-  ],
-  "credits": {},
-  "external": ""
+  ]
 }
