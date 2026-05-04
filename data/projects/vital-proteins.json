@@ -1,0 +1,65 @@
+{
+  "slug": "vital-proteins",
+  "title": "Vital Proteins Creative Strategy",
+  "client": "Vital Proteins",
+  "project": "",
+  "year": "2026",
+  "tags": [
+    "Creative Strategy",
+    "B2C",
+    "Creator Marketing"
+  ],
+  "thumbnail": {
+    "type": "video",
+    "src": "/assets/projects/vitalproteinshero.mp4",
+    "poster": ""
+  },
+  "hero": {
+    "type": "video",
+    "src": "/assets/projects/vitalproteinshero.mp4"
+  },
+  "summary": "Moving Vital Proteins beyond the kitchen demo to tell compelling stories that resonate with communities.",
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Vital Proteins had been posting video after video of people in their kitchens talking about the product, an approach that failed to resonate with TikTok audiences who crave storytelling, community, and experiences that feel native to the platform. We worked directly with the CMO to conduct a thorough asset review and crafted a new creative strategy built around three pillars: embracing and activating their community of younger fans who differ from their core consumers, utilizing TikTok trends, production techniques, and storylines to show up more authentically, and launching their new products on TikTok Shop."
+    },
+    {
+      "type": "callout",
+      "text": "We achieved an average of 13.9 million weekly views and 70.6 percent year-over-year growth",
+      "callout": true,
+      "attribution": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "The strategy launched powerfully with the creator-fueled Vital Diner pop-up in NYC during Fashion Week, a collagen-infused experience that celebrated the backstage talent powering the event. This community-centric activation generated strong organic creator content and buzz while marking Vital Proteins' first sales on TikTok Shop. The shift toward authentic, platform-native storytelling has driven significant platform momentum, with the brand achieving an average of 13.9 million weekly views and 70.6 percent year-over-year growth in viewership."
+    }
+  ],
+  "grid": [
+    {
+      "type": "video",
+      "src": "/assets/projects/vitalproteins4.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/vitalproteins2.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/vitalproteins3.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
+      "src": "/assets/projects/vitalproteins1.mp4",
+      "span": 1,
+      "alt": ""
+    }
+  ],
+  "external": ""
+}
