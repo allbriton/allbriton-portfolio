@@ -31,6 +31,12 @@
   "grid": [
     {
       "type": "video",
+      "src": "/assets/projects/square4.mp4",
+      "span": 1,
+      "alt": ""
+    },
+    {
+      "type": "video",
       "src": "/assets/projects/square1.mp4",
       "span": 1,
       "alt": ""
@@ -44,12 +50,6 @@
     {
       "type": "video",
       "src": "/assets/projects/square3.mp4",
-      "span": 1,
-      "alt": ""
-    },
-    {
-      "type": "video",
-      "src": "/assets/projects/square4.mp4",
       "span": 1,
       "alt": ""
     }
